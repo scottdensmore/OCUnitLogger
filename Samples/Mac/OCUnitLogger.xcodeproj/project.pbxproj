@@ -15,7 +15,6 @@
 		DE16C5B3121F8CD10019C14C /* Scorer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16C5B1121F8CD10019C14C /* Scorer.m */; };
 		DE16C5DD12203E7A0019C14C /* Scorer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16C5B1121F8CD10019C14C /* Scorer.m */; };
 		DE16C67D122056890019C14C /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DE16C67C122056890019C14C /* libxml2.2.7.3.dylib */; };
-		DE5E856913485D7200F5F6B3 /* README.textile in Resources */ = {isa = PBXBuildFile; fileRef = DE5E856813485D7200F5F6B3 /* README.textile */; };
 		DE63AFC8121CDCD3009DB02A /* GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE63AFC7121CDCD3009DB02A /* GameTests.m */; };
 		DE63AFDD121CDF27009DB02A /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = DE63AFDB121CDF27009DB02A /* Game.h */; };
 		DE63AFDE121CDF27009DB02A /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = DE63AFDC121CDF27009DB02A /* Game.m */; };
@@ -266,7 +265,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE5E856913485D7200F5F6B3 /* README.textile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,9 +377,9 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -392,8 +390,9 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
