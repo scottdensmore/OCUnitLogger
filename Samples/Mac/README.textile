@@ -3,7 +3,10 @@ OCUnitLogger is a drop in set of classes to allow you to convert the OCUnit outp
 Setup:
 
 OCUnitToJUnitLogger:
-Copy OCUnitToJUnitLogger.m, GDataXMLNode.h and GDataXMLNode.m to your UnitTest project. GDataXMLNode.h and GDataXMLNode.m come from the Google Objective C client. The output will be put at build\ocunit.xml. GDataXMLNode is used so it can be put in iPHone projects.
+Copy OCUnitToJUnitLogger.m, GDataXMLNode.h and GDataXMLNode.m from the Logger directory to your UnitTest project. GDataXMLNode.h and GDataXMLNode.m come from the Google Objective C client. The output will be put at build\ocunit.xml. GDataXMLNode is used so it can be put in iPhone projects.
+
+Samples:
+
 
 Google Objective C client:
 * http://code.google.com/p/gdata-objectivec-client/

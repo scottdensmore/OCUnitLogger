@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		DE0D13FC1348210600C00915 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0D13FA1348210600C00915 /* GDataXMLNode.m */; };
+		DE0D13FD1348210600C00915 /* OCUnitToJUnitLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0D13FB1348210600C00915 /* OCUnitToJUnitLogger.m */; };
 		DE16C5B2121F8CD10019C14C /* Scorer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE16C5B0121F8CD10019C14C /* Scorer.h */; };
 		DE16C5B3121F8CD10019C14C /* Scorer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16C5B1121F8CD10019C14C /* Scorer.m */; };
 		DE16C5DD12203E7A0019C14C /* Scorer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16C5B1121F8CD10019C14C /* Scorer.m */; };
-		DE16C677122056040019C14C /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16C676122056040019C14C /* GDataXMLNode.m */; };
-		DE16C679122056100019C14C /* OCUnitToJUnitLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16C678122056100019C14C /* OCUnitToJUnitLogger.m */; };
 		DE16C67D122056890019C14C /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DE16C67C122056890019C14C /* libxml2.2.7.3.dylib */; };
 		DE63AFC8121CDCD3009DB02A /* GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE63AFC7121CDCD3009DB02A /* GameTests.m */; };
 		DE63AFDD121CDF27009DB02A /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = DE63AFDB121CDF27009DB02A /* Game.h */; };
@@ -40,11 +40,11 @@
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* OCUnitLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCUnitLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		DE0D13F91348210600C00915 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		DE0D13FA1348210600C00915 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		DE0D13FB1348210600C00915 /* OCUnitToJUnitLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCUnitToJUnitLogger.m; sourceTree = "<group>"; };
 		DE16C5B0121F8CD10019C14C /* Scorer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scorer.h; sourceTree = "<group>"; };
 		DE16C5B1121F8CD10019C14C /* Scorer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scorer.m; sourceTree = "<group>"; };
-		DE16C675122056040019C14C /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
-		DE16C676122056040019C14C /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
-		DE16C678122056100019C14C /* OCUnitToJUnitLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCUnitToJUnitLogger.m; sourceTree = "<group>"; };
 		DE16C67C122056890019C14C /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
 		DE16C6CF12205E2E0019C14C /* README.textile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.textile; sourceTree = "<group>"; };
 		DE63AF90121CD9A5009DB02A /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,7 +87,7 @@
 		0867D691FE84028FC02AAC07 /* OCUnitLogger */ = {
 			isa = PBXGroup;
 			children = (
-				DE16C66C1220548C0019C14C /* Logger */,
+				DE0D13F81348210600C00915 /* Logger */,
 				DE63AFAB121CD9F8009DB02A /* Tests */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
@@ -156,14 +156,15 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		DE16C66C1220548C0019C14C /* Logger */ = {
+		DE0D13F81348210600C00915 /* Logger */ = {
 			isa = PBXGroup;
 			children = (
-				DE16C678122056100019C14C /* OCUnitToJUnitLogger.m */,
-				DE16C675122056040019C14C /* GDataXMLNode.h */,
-				DE16C676122056040019C14C /* GDataXMLNode.m */,
+				DE0D13F91348210600C00915 /* GDataXMLNode.h */,
+				DE0D13FA1348210600C00915 /* GDataXMLNode.m */,
+				DE0D13FB1348210600C00915 /* OCUnitToJUnitLogger.m */,
 			);
-			path = Logger;
+			name = Logger;
+			path = ../../Logger;
 			sourceTree = "<group>";
 		};
 		DE63AFAB121CD9F8009DB02A /* Tests */ = {
@@ -235,7 +236,11 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "OCUnitLogger" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* OCUnitLogger */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -298,8 +303,8 @@
 				DE63AFC8121CDCD3009DB02A /* GameTests.m in Sources */,
 				DE63AFE5121CDFFC009DB02A /* Game.m in Sources */,
 				DE16C5DD12203E7A0019C14C /* Scorer.m in Sources */,
-				DE16C677122056040019C14C /* GDataXMLNode.m in Sources */,
-				DE16C679122056100019C14C /* OCUnitToJUnitLogger.m in Sources */,
+				DE0D13FC1348210600C00915 /* GDataXMLNode.m in Sources */,
+				DE0D13FD1348210600C00915 /* OCUnitToJUnitLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
