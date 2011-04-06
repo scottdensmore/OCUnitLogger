@@ -9,3 +9,5 @@ Documentation
 *.swp
 *~.nib
 .gitattributes
+DerivedData
+ocunit.xml
