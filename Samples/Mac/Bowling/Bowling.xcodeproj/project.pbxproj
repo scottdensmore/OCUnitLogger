@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DED677BF134988B5006A8E9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED677BE134988B5006A8E9D /* Cocoa.framework */; };
+		DED677C9134988B5006A8E9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DED677C7134988B5006A8E9D /* InfoPlist.strings */; };
+		DED677D1134988B5006A8E9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED677BE134988B5006A8E9D /* Cocoa.framework */; };
+		DED677D4134988B5006A8E9D /* Bowling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED677BB134988B5006A8E9D /* Bowling.framework */; };
+		DED677DA134988B5006A8E9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DED677D8134988B5006A8E9D /* InfoPlist.strings */; };
+		DED677EC13498FB8006A8E9D /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = DED677E813498FB8006A8E9D /* Game.h */; };
+		DED677ED13498FB8006A8E9D /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = DED677E913498FB8006A8E9D /* Game.m */; };
+		DED677EE13498FB8006A8E9D /* Scorer.h in Headers */ = {isa = PBXBuildFile; fileRef = DED677EA13498FB8006A8E9D /* Scorer.h */; };
+		DED677EF13498FB8006A8E9D /* Scorer.m in Sources */ = {isa = PBXBuildFile; fileRef = DED677EB13498FB8006A8E9D /* Scorer.m */; };
+		DED677F61349902E006A8E9D /* GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DED677F51349902E006A8E9D /* GameTests.m */; };
+		DEF5B9A9134995140065E893 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF5B9A7134995140065E893 /* GDataXMLNode.m */; };
+		DEF5B9AA134995140065E893 /* OCUnitToJUnitLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF5B9A8134995140065E893 /* OCUnitToJUnitLogger.m */; };
+		DEF5B9B6134996080065E893 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF5B9B5134996080065E893 /* libxml2.2.7.3.dylib */; };
+		DEF5B9BD134997420065E893 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = DED677E913498FB8006A8E9D /* Game.m */; };
+		DEF5B9BE134997460065E893 /* Scorer.m in Sources */ = {isa = PBXBuildFile; fileRef = DED677EB13498FB8006A8E9D /* Scorer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DED677D2134988B5006A8E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED677B1134988B5006A8E9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED677BA134988B5006A8E9D;
+			remoteInfo = Bowling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DED677BB134988B5006A8E9D /* Bowling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bowling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED677BE134988B5006A8E9D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DED677C1134988B5006A8E9D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DED677C2134988B5006A8E9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DED677C3134988B5006A8E9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DED677C6134988B5006A8E9D /* Bowling-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bowling-Info.plist"; sourceTree = "<group>"; };
+		DED677C8134988B5006A8E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DED677CA134988B5006A8E9D /* Bowling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bowling-Prefix.pch"; sourceTree = "<group>"; };
+		DED677D0134988B5006A8E9D /* BowlingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED677D7134988B5006A8E9D /* BowlingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BowlingTests-Info.plist"; sourceTree = "<group>"; };
+		DED677D9134988B5006A8E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DED677DB134988B5006A8E9D /* BowlingTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BowlingTests-Prefix.pch"; sourceTree = "<group>"; };
+		DED677E813498FB8006A8E9D /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		DED677E913498FB8006A8E9D /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		DED677EA13498FB8006A8E9D /* Scorer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scorer.h; sourceTree = "<group>"; };
+		DED677EB13498FB8006A8E9D /* Scorer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scorer.m; sourceTree = "<group>"; };
+		DED677F41349902E006A8E9D /* GameTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTests.h; sourceTree = "<group>"; };
+		DED677F51349902E006A8E9D /* GameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTests.m; sourceTree = "<group>"; };
+		DEF5B9A6134995140065E893 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		DEF5B9A7134995140065E893 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		DEF5B9A8134995140065E893 /* OCUnitToJUnitLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCUnitToJUnitLogger.m; sourceTree = "<group>"; };
+		DEF5B9B5134996080065E893 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DED677B7134988B5006A8E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED677BF134988B5006A8E9D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED677CC134988B5006A8E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF5B9B6134996080065E893 /* libxml2.2.7.3.dylib in Frameworks */,
+				DED677D1134988B5006A8E9D /* Cocoa.framework in Frameworks */,
+				DED677D4134988B5006A8E9D /* Bowling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DED677AF134988B5006A8E9D = {
+			isa = PBXGroup;
+			children = (
+				DED677C4134988B5006A8E9D /* Bowling */,
+				DED677D5134988B5006A8E9D /* BowlingTests */,
+				DED677BD134988B5006A8E9D /* Frameworks */,
+				DED677BC134988B5006A8E9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DED677BC134988B5006A8E9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DED677BB134988B5006A8E9D /* Bowling.framework */,
+				DED677D0134988B5006A8E9D /* BowlingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED677BD134988B5006A8E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF5B9B5134996080065E893 /* libxml2.2.7.3.dylib */,
+				DED677BE134988B5006A8E9D /* Cocoa.framework */,
+				DED677C0134988B5006A8E9D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED677C0134988B5006A8E9D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DED677C1134988B5006A8E9D /* AppKit.framework */,
+				DED677C2134988B5006A8E9D /* CoreData.framework */,
+				DED677C3134988B5006A8E9D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DED677C4134988B5006A8E9D /* Bowling */ = {
+			isa = PBXGroup;
+			children = (
+				DED677E813498FB8006A8E9D /* Game.h */,
+				DED677E913498FB8006A8E9D /* Game.m */,
+				DED677EA13498FB8006A8E9D /* Scorer.h */,
+				DED677EB13498FB8006A8E9D /* Scorer.m */,
+				DED677C5134988B5006A8E9D /* Supporting Files */,
+			);
+			path = Bowling;
+			sourceTree = "<group>";
+		};
+		DED677C5134988B5006A8E9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED677C6134988B5006A8E9D /* Bowling-Info.plist */,
+				DED677C7134988B5006A8E9D /* InfoPlist.strings */,
+				DED677CA134988B5006A8E9D /* Bowling-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DED677D5134988B5006A8E9D /* BowlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEF5B9A5134995140065E893 /* Logger */,
+				DED677F41349902E006A8E9D /* GameTests.h */,
+				DED677F51349902E006A8E9D /* GameTests.m */,
+				DED677D6134988B5006A8E9D /* Supporting Files */,
+			);
+			path = BowlingTests;
+			sourceTree = "<group>";
+		};
+		DED677D6134988B5006A8E9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED677D7134988B5006A8E9D /* BowlingTests-Info.plist */,
+				DED677D8134988B5006A8E9D /* InfoPlist.strings */,
+				DED677DB134988B5006A8E9D /* BowlingTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEF5B9A5134995140065E893 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				DEF5B9A6134995140065E893 /* GDataXMLNode.h */,
+				DEF5B9A7134995140065E893 /* GDataXMLNode.m */,
+				DEF5B9A8134995140065E893 /* OCUnitToJUnitLogger.m */,
+			);
+			name = Logger;
+			path = ../../../../Logger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DED677B8134988B5006A8E9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED677EC13498FB8006A8E9D /* Game.h in Headers */,
+				DED677EE13498FB8006A8E9D /* Scorer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DED677BA134988B5006A8E9D /* Bowling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED677E2134988B5006A8E9D /* Build configuration list for PBXNativeTarget "Bowling" */;
+			buildPhases = (
+				DED677B6134988B5006A8E9D /* Sources */,
+				DED677B7134988B5006A8E9D /* Frameworks */,
+				DED677B8134988B5006A8E9D /* Headers */,
+				DED677B9134988B5006A8E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bowling;
+			productName = Bowling;
+			productReference = DED677BB134988B5006A8E9D /* Bowling.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DED677CF134988B5006A8E9D /* BowlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED677E5134988B5006A8E9D /* Build configuration list for PBXNativeTarget "BowlingTests" */;
+			buildPhases = (
+				DED677CB134988B5006A8E9D /* Sources */,
+				DED677CC134988B5006A8E9D /* Frameworks */,
+				DED677CD134988B5006A8E9D /* Resources */,
+				DED677CE134988B5006A8E9D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DED677D3134988B5006A8E9D /* PBXTargetDependency */,
+			);
+			name = BowlingTests;
+			productName = BowlingTests;
+			productReference = DED677D0134988B5006A8E9D /* BowlingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DED677B1134988B5006A8E9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Scott Densmore";
+			};
+			buildConfigurationList = DED677B4134988B5006A8E9D /* Build configuration list for PBXProject "Bowling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DED677AF134988B5006A8E9D;
+			productRefGroup = DED677BC134988B5006A8E9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED677BA134988B5006A8E9D /* Bowling */,
+				DED677CF134988B5006A8E9D /* BowlingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DED677B9134988B5006A8E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED677C9134988B5006A8E9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED677CD134988B5006A8E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED677DA134988B5006A8E9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DED677CE134988B5006A8E9D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DED677B6134988B5006A8E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED677ED13498FB8006A8E9D /* Game.m in Sources */,
+				DED677EF13498FB8006A8E9D /* Scorer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED677CB134988B5006A8E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED677F61349902E006A8E9D /* GameTests.m in Sources */,
+				DEF5B9A9134995140065E893 /* GDataXMLNode.m in Sources */,
+				DEF5B9AA134995140065E893 /* OCUnitToJUnitLogger.m in Sources */,
+				DEF5B9BD134997420065E893 /* Game.m in Sources */,
+				DEF5B9BE134997460065E893 /* Scorer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DED677D3134988B5006A8E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED677BA134988B5006A8E9D /* Bowling */;
+			targetProxy = DED677D2134988B5006A8E9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DED677C7134988B5006A8E9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED677C8134988B5006A8E9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DED677D8134988B5006A8E9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED677D9134988B5006A8E9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DED677E0134988B5006A8E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DED677E1134988B5006A8E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DED677E3134988B5006A8E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowling/Bowling-Prefix.pch";
+				INFOPLIST_FILE = "Bowling/Bowling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		DED677E4134988B5006A8E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowling/Bowling-Prefix.pch";
+				INFOPLIST_FILE = "Bowling/Bowling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		DED677E6134988B5006A8E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlingTests/BowlingTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "BowlingTests/BowlingTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DED677E7134988B5006A8E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BowlingTests/BowlingTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "BowlingTests/BowlingTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DED677B4134988B5006A8E9D /* Build configuration list for PBXProject "Bowling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED677E0134988B5006A8E9D /* Debug */,
+				DED677E1134988B5006A8E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED677E2134988B5006A8E9D /* Build configuration list for PBXNativeTarget "Bowling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED677E3134988B5006A8E9D /* Debug */,
+				DED677E4134988B5006A8E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED677E5134988B5006A8E9D /* Build configuration list for PBXNativeTarget "BowlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED677E6134988B5006A8E9D /* Debug */,
+				DED677E7134988B5006A8E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DED677B1134988B5006A8E9D /* Project object */;
+}

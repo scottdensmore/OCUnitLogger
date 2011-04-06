@@ -1,6 +1,5 @@
 //
 //  OCUnitToJUnitLogger.h
-//  RestAzure
 //
 //  Created by Scott Densmore on 6/5/10.
 //  Copyright 2010 Scott Densmore. All rights reserved.
@@ -86,7 +85,7 @@ static void __attribute__ ((destructor)) OCUnitToJUnitLoggerStop(void)
 {
     if (self.document)
 	{		
-		[[document XMLData] writeToFile:@"build/ocunit.xml" atomically:NO];
+		[[document XMLData] writeToFile:@"ocunit.xml" atomically:NO];
 	}
         
 }
