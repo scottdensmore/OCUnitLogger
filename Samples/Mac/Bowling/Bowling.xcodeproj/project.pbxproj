@@ -232,6 +232,7 @@
 		DED677B1134988B5006A8E9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Scott Densmore";
 			};
 			buildConfigurationList = DED677B4134988B5006A8E9D /* Build configuration list for PBXProject "Bowling" */;
